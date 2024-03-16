@@ -34,8 +34,21 @@ const fruits = ['apple', 'banana', 'orange', 10, true];
 // console.log(fruits[3]);
 fruits[3] = 'paneapple'
 // console.log(fruits[3]);
-console.log(fruits);
+// console.log(fruits);
 
+//PUSH -----if not knowing how many values in your Array---push method
+fruits.push('mangoes');
+//UNSHIFT---------add to the beginning -- unshift
+fruits.unshift('Strawberry');
+//pop ------to take the last one off
+fruits.pop();
+//check what is in Array
+console.log(Array.isArray(fruits));
+// to get the index of a certain values
+console.log(fruits.indexOf('orange'));
+
+
+console.log(fruits);
 
 
 
