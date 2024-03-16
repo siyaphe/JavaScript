@@ -1,24 +1,26 @@
-const todos = [
-    {
-        id: 1,
-        text: 'take out trash',
-        isCompleted: true
-    },
-    {
-        id: 2,
-        text: 'Meeting with Jordan',
-        isCompleted: true
-    },
-    {
-        id: 3,
-        text: 'Dentist Appt',
-        isCompleted: false
-    }
-];
+// forEach, map, filter
 
-// console.log(todos[1].text);
-//JSON ------- to send data to the  server
-const todoJSON =  JSON.stringify(todos);
-console.log(todoJSON);
+//create variable -----------ifStatement
+// const x =  6;
+// const y = 11;
+// if(x > 5 && y > 10) {
+//     console.log('x is  more than 5 or y is more than 10');
+
+// }
+const x = 10;
+const color = x > 10 ?  'red' : 'blue';
+
+switch(color) {
+    case 'red':
+        console.log('color is red');
+        break;
+    case  'blue':
+        console.log('color is blue');
+        break;
+    default:
+        console.log('color is NOTred or blue.')
+}
+
+
 
 
