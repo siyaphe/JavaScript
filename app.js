@@ -1,19 +1,12 @@
-// console.log('This Henri');
-// console.error('This is an error');
-// console.warn('This is a Warning');
+//DATATYPE
+// String, Numbers, Boolean, null, undefined
 
-// let, const ------------ASSIGN VARIABLE
-// let --------------you can reasign variable
-let age = 30;
-age = 31;
-console.log(age);
+const name = 'Henri';
+const age = 25;
 
-let score;
-score = 10;
-console.log(score);
 
-//const---------------you can not change the value
-const scores = 15;
-console.log(scores);
+// console.log(typeof name);
+console.log(typeof c);
+
 
 
