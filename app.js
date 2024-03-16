@@ -16,6 +16,9 @@ const todos = [
     }
 ];
 
-console.log(todos[1].text);
+// console.log(todos[1].text);
+//JSON ------- to send data to the  server
+const todoJSON =  JSON.stringify(todos);
+console.log(todoJSON);
 
 
