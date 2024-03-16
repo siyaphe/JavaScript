@@ -1,12 +1,47 @@
 //DATATYPE
 // String, Numbers, Boolean, null, undefined
 
-const name = 'Henri';
-const age = 25;
+// const name = 'Henri';
+// const age = 25;
+
+//concatenation
+// console.log('My name is name and I am age')
+// console.log('My name is ' + name + ' and I am '+ age);
+//Template String
+// // console.log(`My name is ${name} and I am ${age}`);
+// const hello = console.log(`My name is ${name} and I am ${age}`);
+// console.log(hello);
+
+//length properties
+// const s = 'Hello Malia!';
+// // console.log(s.length);
+// // console.log(s.toUpperCase());
+// // onsole.log(s.toLowerCase());
+// // console.log(s.substring(0, 5).toUpperCase());
+
+// console.log(s.split(''));
+
+// const it = 'technology, computers, it, code';
+// console.log(it.split(', '));
+
+//Arrays - variable that hold multiple values
+
+// const numbers = new Array(1,2,3,4,5,6,7,8);
+// console.log(numbers);
+
+const fruits = ['apple', 'banana', 'orange', 10, true];
+
+// console.log(fruits[3]);
+fruits[3] = 'paneapple'
+// console.log(fruits[3]);
+console.log(fruits);
 
 
-// console.log(typeof name);
-console.log(typeof c);
+
+
+
+
+
 
 
 
